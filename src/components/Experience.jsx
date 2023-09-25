@@ -4,6 +4,7 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import reactImage from "../assets/react.png";
+import django from "../assets/django.png";
 import nextjs from "../assets/nextjs.png";
 import graphql from "../assets/graphql.png";
 import github from "../assets/github.png";
@@ -43,18 +44,24 @@ const Experience = () => {
     },
     {
       id: 6,
+      src: django,
+      title: "Django",
+      style: "shadow-green-400",
+    },
+    {
+      id: 7,
       src: graphql,
       title: "GraphQl",
       style: "shadow-pink-400",
     },
     {
-      id: 7,
+      id: 8,
       src: github,
       title: "Github",
       style: "shadow-gray-500",
     },
     {
-      id: 8,
+      id: 9,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
